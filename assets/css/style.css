@@ -360,9 +360,9 @@ body {
   aspect-ratio: 1 / 0.71;
 }
 
-.staffs { text-align: center; }
+.about { text-align: center; }
 
-.staffs .section-text:first-of-type { margin-block: 5px 30px; }
+.about .section-text:first-of-type { margin-block: 5px 30px; }
 
 .about-list {
   display: grid;
@@ -459,20 +459,20 @@ body {
   margin-block-end: 15px;
 }
 
-.staffs .btn-link { justify-content: center; }
+.about .btn-link { justify-content: center; }
 
-.staffs .section-text:last-of-type {
+.about .section-text:last-of-type {
   max-width: 50ch;
   margin-inline: auto;
   margin-block-start: 25px;
 }
 
-.staffs .section-text:last-of-type .btn-link {
+.about .section-text:last-of-type .btn-link {
   color: var(--blue-violet);
   display: inline-flex;
 }
 
-.staffs .section-text:last-of-type .btn-link:is(:hover, :focus) {
+.about .section-text:last-of-type .btn-link:is(:hover, :focus) {
   color: var(--winter-sky);
   letter-spacing: 0;
 }
@@ -806,7 +806,7 @@ body {
 
   .container { max-width: 960px; }
 
-  :is(.service, .staffs, .app) .section-text {
+  :is(.service, .about, .app) .section-text {
     max-width: 55ch;
     margin-inline: auto;
   }
