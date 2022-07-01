@@ -360,9 +360,9 @@ body {
   aspect-ratio: 1 / 0.71;
 }
 
-.about { text-align: center; }
+.staffs { text-align: center; }
 
-.about .section-text:first-of-type { margin-block: 5px 30px; }
+.staffs .section-text:first-of-type { margin-block: 5px 30px; }
 
 .about-list {
   display: grid;
