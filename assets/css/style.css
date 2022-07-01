@@ -806,7 +806,7 @@ body {
 
   .container { max-width: 960px; }
 
-  :is(.service, .about, .app) .section-text {
+  :is(.service, .staffs, .app) .section-text {
     max-width: 55ch;
     margin-inline: auto;
   }
