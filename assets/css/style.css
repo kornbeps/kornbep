@@ -439,7 +439,7 @@ body {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  margin-inline: auto;
+  margin-inline: 10px;
   transition: var(--transition-2);
 }
 
