@@ -459,20 +459,20 @@ body {
   margin-block-end: 15px;
 }
 
-.about .btn-link { justify-content: center; }
+.staffs .btn-link { justify-content: center; }
 
-.about .section-text:last-of-type {
+.staffs .section-text:last-of-type {
   max-width: 50ch;
   margin-inline: auto;
   margin-block-start: 25px;
 }
 
-.about .section-text:last-of-type .btn-link {
+.staffs .section-text:last-of-type .btn-link {
   color: var(--blue-violet);
   display: inline-flex;
 }
 
-.about .section-text:last-of-type .btn-link:is(:hover, :focus) {
+.staffs .section-text:last-of-type .btn-link:is(:hover, :focus) {
   color: var(--winter-sky);
   letter-spacing: 0;
 }
