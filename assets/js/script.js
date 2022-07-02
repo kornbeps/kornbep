@@ -4,6 +4,7 @@ const navbar = document.querySelector("[data-navbar]");
 const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
 
+
 navToggleBtn.addEventListener("click", function () {
   navbar.classList.toggle("active");
   this.classList.toggle("active");
