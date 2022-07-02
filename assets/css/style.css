@@ -573,7 +573,13 @@ body {
   display: grid;
   place-items: center;
 }
-
+.widget{
+  position: relative;
+  padding-left: 50%;
+  display: block;
+  place-items: center;
+  left: 30%;
+}
 
 
 .footer-top { background-color: var(--cultured-1); }
