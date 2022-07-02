@@ -434,18 +434,15 @@ body {
 .about-card-28 { background-image: var(--gradient-10); }
 
 .about-card .card-banner {
-  min-width: 100px;
-  height: 100px;
-  aspect-ratio: 1 / 1;
-  background-color: var(--white_50);
+  min-width: auto;
+  height: auto;
+  aspect-ratio: auto;
   border-radius: 50%;
   display: grid;
   place-items: center;
   margin-inline: 10px;
   transition: var(--transition-2);
 }
-
-.about-card:is(:hover, :focus-within) .card-banner { background-color: var(--white-1); }
 
 .about-card .card-title {
   color: var(--white-1);
