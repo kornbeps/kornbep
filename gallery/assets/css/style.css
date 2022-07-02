@@ -374,6 +374,7 @@ body {
   color: var(--white-1);
   margin-bottom: 1%;
   padding: 20px;
+  object-fit: contain;
   border-radius: var(--radius-12);
 }
 
@@ -434,10 +435,9 @@ body {
 .about-card-28 { background-image: var(--gradient-10); }
 
 .about-card .card-banner {
-  min-width: 500px;
-  height: 300px;
+  min-width: auto;
+  height: auto;
   aspect-ratio: 1 / 1;
-  background-color: var(--white_50);
   border-radius: 0%;
   display: grid;
   place-items: center;
