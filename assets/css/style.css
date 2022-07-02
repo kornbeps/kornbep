@@ -460,6 +460,10 @@ body {
   line-height: 1.0;
   margin-block-end: 15px;
 }
+.discord{
+  line-height: 1.0;
+  width: 300px;
+}
 
 .about .btn-link { justify-content: center; }
 
