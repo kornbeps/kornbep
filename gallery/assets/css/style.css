@@ -437,7 +437,7 @@ body {
 .about-card .card-banner {
   min-width: auto;
   height: auto;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: auto;
   border-radius: 0%;
   display: grid;
   place-items: center;
