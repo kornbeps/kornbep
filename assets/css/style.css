@@ -573,7 +573,7 @@ body {
   display: grid;
   place-items: center;
 }
-.support .widget{
+.widget{
   position: relative;
   padding-left: 50%;
   display: grid;
