@@ -573,6 +573,10 @@ body {
   display: grid;
   place-items: center;
 }
+.support .widget{
+  position: relative;
+  left: 50%;
+}
 
 
 .footer-top { background-color: var(--cultured-1); }
