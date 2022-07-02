@@ -576,6 +576,8 @@ body {
 .support .widget{
   position: relative;
   padding-left: 50%;
+  display: grid;
+  place-items: center;
   left: 30%;
 }
 
