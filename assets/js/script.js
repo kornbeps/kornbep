@@ -5,6 +5,16 @@ const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
 
 
+function streamPlayStop(audioElement) {
+  if (audioElement[0].paused) {
+    audioElement[0].play();
+  } else if (!audioElement[0].volume) {
+    audioElement[0].volume = 1;
+  } else {
+    audioElement[0].volume = 0;
+  }
+}
+
 navToggleBtn.addEventListener("click", function () {
   navbar.classList.toggle("active");
   this.classList.toggle("active");
